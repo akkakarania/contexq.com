@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Demo - ContexQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="industries.html">Industries</a></li>
+                <li><a href="request-demo.html">Request Demo</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="why-us.html">Why Us</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="partners.html">Partners</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="request-demo">
+            <h1>Request a Demo</h1>
+            <form action="mailto:contact@contexq.com" method="post" enctype="text/plain">
+                <label for="email">Business Email ID</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" required>
+                
+                <label for="job-title">Job Title</label>
+                <input type="text" id="job-title" name="job-title" required>
+                
+                <label for="phone">Phone Number (optional)</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="country">Country of Residence</label>
+                <select id="country" name="country">
+                    <!-- Add country options here -->
+                </select>
+                
+                <label for="hear-about-us">How did you hear about us?</label>
+                <input type="text" id="hear-about-us" name="hear-about-us" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ContexQ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
